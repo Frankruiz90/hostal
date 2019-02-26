@@ -3,9 +3,12 @@
     font-size: 20px;
 
 }
+.color-light-blue{
+    background-color: rgb(53, 126, 243);
 
+}
 .background-blue{
-   background-color : rgb(7, 86, 204) ;
+   background-color : rgb(7, 86, 204);
 }
 
 .smaller-image{
@@ -19,19 +22,18 @@
     padding-right: 20px;
     padding-left: 50px;
 }
-.centre{
-    padding-left: 3px;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-bottom: 3px;
+.center{
+    padding: 3px;
+    text-align: center;
 
 }
 
-#size-font{
+.big-font{
     font-size: 45px;
+    font-family: 'Baloo Bhaina', cursive;
 }
 
-.label {
+.size-label {
     /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
     /*display: inline-block;*/
     width: 90px;
@@ -58,4 +60,15 @@ form {
 
     /* Para armonizar el look&feel del borde en los campos de texto */
     border: 1px solid #999;
+}/*alineacion iaquierda de texto*/
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/*cambio de color de la etiqueta a*/
+a:hover{
+    color: #87D2EE;
+
 }

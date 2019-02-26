@@ -10,36 +10,40 @@
 <body>
     <form action="">
             <div class="background-blue centre">
-                   <a href="index.html"> <img class="smaller-image" src="imagenes/IMG_8453.JPG" alt="Hostal"></a>
-                    
-                 <h1 class="text-white line" id="size-font" > Tus datos: </h1>
-                                                     
-                    
+                   <a href="index.html"> <img class="smaller-image" src="Img/frente1.JPG" alt="Hostal"></a>
+                 <h1 class="text-white line big-font" > Tus datos: </h1>
+                
+                <div class="center color-light-blue" >    
+                    <a href="index.html" class="text-white left " > Inicio </a>
+                    <a href="imag.html" class="text-white  center" > Imagenes </a>
+                    <a href="#" class="text-white right"> Contactenos </a>
+                </div>
                 </div>
 
         <div>
-            <label class="label" for="name"> Nombre : <input type="text" id="text-name" class="text"></label>
+            <label class="size-label" for="name"> Nombre : <input type="text" id="text-name" class="text" required ></label>
         </div>   
         <div>    
-            <label class="label" for="lastname"> Apellido : <input type="text" id="text-lastname" class="text" ></label>
+            <label class="size-label" for="lastname"> Apellido : <input type="text" id="text-lastname" class="text" ></label>
         </div>    
         <div>
-            <label class="label" for="mail"> Correo : <input type="text" id="text-mail"class="text"></label>
+            <label class="size-label" for="mail"> Correo : <input type="email" id="text-mail"class="text" required ></label>
         </div>    
         <div>
-            <label class="label" for="cell"> Celular : <input type="text" id="text-cell" class="text"></label>
+            <label class="size-label" for="cell"> Celular : <input type="tel" id="text-cell" class="text"></label>
         </div>
         <div>
-            <label class="label" for="user"> Usuario : <input type="text" id="txt-user" class="text"></label>
+            <label class="size-label" for="user"> Usuario : <input type="text" id="txt-user" class="text" required ></label>
         </div>
         <div>
-            <label class="label" for="password"> Clave : <input type="text" id="txt-password" class="text"></label>
-        </div>    
-        <p>Desea recibir información por correo de nuestras ofertas y promociones. </p>
-        <label for="sendofert" class="line"><input type="radio" name="send-ofert"> Si. </label>  
-        <label for="sendofert" class="line"><input type="radio" name="send-ofert" > No. </label>
+            <label class="size-label" for="password"> Clave : <input type="password" id="psw-password" class="text" required ></label>
+        </div>
+        <div>    
+        <label for="pasajes-med-nec"><input id="pasajes-med-nec" type="checkbox" checked> Desea recibir información sobre ofertas y descuentos.  </label>
+        </div>
         <br>
-        <a href="quoting.html"><button type="button"> Enviar </button> </a>
+        <a href="quoting.html"><button type="button"> Registrarme </button> </a>
+        <a href="sesion.html"><button type="button" >Ya tengo cuenta</button></a>
         
 
     </form>

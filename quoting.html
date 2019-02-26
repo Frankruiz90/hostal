@@ -12,43 +12,29 @@
 <body>
     <form action="">
         <div class="background-blue centre">
-               <a href="index.html"> <img class="smaller-image" src="imagenes/IMG_8453.JPG" alt="Hostal"></a>
+               <a href="index.html"> <img class="smaller-image" src="Img/frente1.JPG" alt="Hostal"></a>
                 
-             <p class="text-white line" id="size-font" > Cotización: </p>
+             <h1 class="text-white line big-font" > Cotización: </h1>
+             <div class="center color-light-blue">    
+                <a href="index.html" class="text-white left " > Inicio </a>
+                <a href="imag.html" class="text-white  center" > Imagenes </a>
+                <a href="#" class="text-white right"> Contactenos </a>
+                
+            </div>
+        </div>
     </form>        
             
             </div>
     <form action="    ">
         <div class="line">
-            <p>Numero de noches:</p>
-            <select name="num-nigth" id="num-nigth">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+              <div>
+                <label class="size-label" for="lbl-num-night"> Numero de nochres: <input type="number" id="txt-num-nigth" class="text" required></label>
+            </div>   
+            <div>
+                <label class="size-label" for="lbl-num-people"> Numero de personas: <input type="number" id="txt-num-people" class="text" required ></label>
+            </div>   
         </div>
-        <div class="line">
-                <p>Cantidad de personas:</p>
-                <select name="num-people" id="num-people">
-                    <option value="1p">1</option>
-                    <option value="2p">2</option>
-                    <option value="3p">3</option>
-                    <option value="4p">4</option>
-                    <option value="5p">5</option>
-                    <option value="6p">6</option>
-                    <option value="7p">7</option>
-                    <option value="8p">8</option>
-                    <option value="9p">9</option>
-                    <option value="10p">10</option>
-                </select>
-            </div>
+
         <div class="line"> 
              
              <label for="pasajes-med-nec"><input id="pasajes-med-nec" type="checkbox"> Pasajes Medellín-Necoclí </label><br>
@@ -63,8 +49,12 @@
             
        
          </div><br>
+         <br>
          <div class="line">
          <button type="submit" > Cotizar </button>
+        </div>
+        <div>
+            <label for="total" class="line">Total: $ <label for="valor"></label> </label>
         </div>
     </form>
 </body>
